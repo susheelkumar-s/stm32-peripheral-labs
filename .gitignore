@@ -1,0 +1,34 @@
+# --- Ignore build/IDE junk only inside hal_blink ---
+
+# Build output folders
+01_GPIO/hal_blink/Debug/
+01_GPIO/hal_blink/Release/
+01_GPIO/hal_blink/build/
+01_GPIO/hal_blink/cmake-build-*/
+
+# STM32CubeIDE / Eclipse project junk
+01_GPIO/hal_blink/.settings/
+01_GPIO/hal_blink/.mxproject
+01_GPIO/hal_blink/.metadata/
+
+# Keil / uVision
+01_GPIO/hal_blink/*.uvguix*
+01_GPIO/hal_blink/*.uvoptx
+01_GPIO/hal_blink/Objects/
+01_GPIO/hal_blink/Listings/
+
+# IAR
+01_GPIO/hal_blink/*.dep
+01_GPIO/hal_blink/settings/
+
+# Compiled binaries/objects (in case they slip in anywhere under hal_blink)
+01_GPIO/hal_blink/**/*.o
+01_GPIO/hal_blink/**/*.elf
+01_GPIO/hal_blink/**/*.bin
+01_GPIO/hal_blink/**/*.hex
+01_GPIO/hal_blink/**/*.map
+01_GPIO/hal_blink/**/*.list
+
+# OS junk (fine to apply repo-wide)
+Thumbs.db
+.DS_Store
