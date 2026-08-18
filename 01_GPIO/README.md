@@ -1,8 +1,3 @@
-\# 01 - GPIO Blink
-
-
-
-\- HAL version: hal\_blink/
-
-\- Register-level version: register\_blink.c
-
+# 01 - GPIO Blink
+- HAL version: hal_blink/
+- Register-level version: register_blink.c
